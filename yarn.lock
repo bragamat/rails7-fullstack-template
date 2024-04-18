@@ -323,6 +323,40 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tailwindcss/aspect-ratio@npm:^0.4.2":
+  version: 0.4.2
+  resolution: "@tailwindcss/aspect-ratio@npm:0.4.2"
+  peerDependencies:
+    tailwindcss: ">=2.0.0 || >=3.0.0 || >=3.0.0-alpha.1"
+  checksum: c821a8061f80200b20db26f9cf2a711ffb17814adf847a72d4d4632804d1cabf6671df8e99e06cedfb2ba97b968d7843cd435d1201519c86acdde702efca418b
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/forms@npm:^0.5.7":
+  version: 0.5.7
+  resolution: "@tailwindcss/forms@npm:0.5.7"
+  dependencies:
+    mini-svg-data-uri: "npm:^1.2.3"
+  peerDependencies:
+    tailwindcss: ">=3.0.0 || >= 3.0.0-alpha.1"
+  checksum: cd29e0c978402ae87a923ae802dcff43f7b050595666cb067321cac2e37a52f61b9d73385cb0a10455548581ddd0d3886815bd6c64a1da06247c0057fa9f4601
+  languageName: node
+  linkType: hard
+
+"@tailwindcss/typography@npm:^0.5.12":
+  version: 0.5.12
+  resolution: "@tailwindcss/typography@npm:0.5.12"
+  dependencies:
+    lodash.castarray: "npm:^4.4.0"
+    lodash.isplainobject: "npm:^4.0.6"
+    lodash.merge: "npm:^4.6.2"
+    postcss-selector-parser: "npm:6.0.10"
+  peerDependencies:
+    tailwindcss: "*"
+  checksum: 3410b06594b89b5650cd4c985e6b4f48d1ba2cfbe146bb5ea2a2cfc1c9b065cd3ca2215436a814f458936683836f9cf792a8d6341345feccf6fb9910c565c092
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:^2.0.0":
   version: 2.0.0
   resolution: "abbrev@npm:2.0.0"
@@ -940,6 +974,9 @@ __metadata:
   dependencies:
     "@hotwired/stimulus": "npm:3.2.2"
     "@hotwired/turbo-rails": "npm:8.0.4"
+    "@tailwindcss/aspect-ratio": "npm:^0.4.2"
+    "@tailwindcss/forms": "npm:^0.5.7"
+    "@tailwindcss/typography": "npm:^0.5.12"
     autoprefixer: "npm:10.4.19"
     esbuild: "npm:0.20.2"
     postcss: "npm:8.4.38"
@@ -1154,6 +1191,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.castarray@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "lodash.castarray@npm:4.4.0"
+  checksum: 0bf523ad1596a5bf17869ba047235b4453eee927005013ae152345e2b291b81a02e7f2b7c38f876a1d16f73c34aa3c3241e965193e5b31595035bc8f330c4358
+  languageName: node
+  linkType: hard
+
+"lodash.isplainobject@npm:^4.0.6":
+  version: 4.0.6
+  resolution: "lodash.isplainobject@npm:4.0.6"
+  checksum: afd70b5c450d1e09f32a737bed06ff85b873ecd3d3d3400458725283e3f2e0bb6bf48e67dbe7a309eb371a822b16a26cca4a63c8c52db3fc7dc9d5f9dd324cbb
+  languageName: node
+  linkType: hard
+
+"lodash.merge@npm:^4.6.2":
+  version: 4.6.2
+  resolution: "lodash.merge@npm:4.6.2"
+  checksum: 402fa16a1edd7538de5b5903a90228aa48eb5533986ba7fa26606a49db2572bf414ff73a2c9f5d5fd36b31c46a5d5c7e1527749c07cbcf965ccff5fbdf32c506
+  languageName: node
+  linkType: hard
+
 "lru-cache@npm:^10.0.1, lru-cache@npm:^10.2.0":
   version: 10.2.0
   resolution: "lru-cache@npm:10.2.0"
@@ -1213,6 +1271,15 @@ __metadata:
     braces: "npm:^3.0.2"
     picomatch: "npm:^2.3.1"
   checksum: 3d6505b20f9fa804af5d8c596cb1c5e475b9b0cd05f652c5b56141cf941bd72adaeb7a436fda344235cef93a7f29b7472efc779fcdb83b478eab0867b95cdeff
+  languageName: node
+  linkType: hard
+
+"mini-svg-data-uri@npm:^1.2.3":
+  version: 1.4.4
+  resolution: "mini-svg-data-uri@npm:1.4.4"
+  bin:
+    mini-svg-data-uri: cli.js
+  checksum: 24545fa30b5a45449241bf19c25b8bc37594b63ec06401b3d563bd1c2e8a6abb7c18741f8b354e0064baa63c291be214154bf3a66f201ae71dfab3cc1a5e3191
   languageName: node
   linkType: hard
 
@@ -1583,6 +1650,16 @@ __metadata:
   peerDependencies:
     postcss: ^8.2.14
   checksum: 2a50aa36d5d103c2e471954830489f4c024deed94fa066169101db55171368d5f80b32446b584029e0471feee409293d0b6b1d8ede361f6675ba097e477b3cbd
+  languageName: node
+  linkType: hard
+
+"postcss-selector-parser@npm:6.0.10":
+  version: 6.0.10
+  resolution: "postcss-selector-parser@npm:6.0.10"
+  dependencies:
+    cssesc: "npm:^3.0.0"
+    util-deprecate: "npm:^1.0.2"
+  checksum: a0b27c5e3f7604c8dc7cd83f145fdd7b21448e0d86072da99e0d78e536ba27aa9db2d42024c50aa530408ee517c4bdc0260529e1afb56608f9a82e839c207e82
   languageName: node
   linkType: hard
 

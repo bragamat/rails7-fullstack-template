@@ -30,6 +30,8 @@ deps.node:
 	yarn
 
 assets:
+	@yarn build
+	@yarn build:css
 	rails assets:precompile
 
 front: front.build front.css

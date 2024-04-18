@@ -28,6 +28,9 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@hotwired/stimulus", "npm:3.2.2"],\
           ["@hotwired/turbo-rails", "npm:8.0.4"],\
+          ["@tailwindcss/aspect-ratio", "virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:0.4.2"],\
+          ["@tailwindcss/forms", "virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:0.5.7"],\
+          ["@tailwindcss/typography", "virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:0.5.12"],\
           ["autoprefixer", "virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:10.4.19"],\
           ["esbuild", "npm:0.20.2"],\
           ["postcss", "npm:8.4.38"],\
@@ -433,6 +436,77 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../.yarn/berry/cache/@rails-actioncable-npm-7.0.1-7dd9553527-10c0.zip/node_modules/@rails/actioncable/",\
         "packageDependencies": [\
           ["@rails/actioncable", "npm:7.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/aspect-ratio", [\
+      ["npm:0.4.2", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@tailwindcss-aspect-ratio-npm-0.4.2-f690711eea-10c0.zip/node_modules/@tailwindcss/aspect-ratio/",\
+        "packageDependencies": [\
+          ["@tailwindcss/aspect-ratio", "npm:0.4.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:0.4.2", {\
+        "packageLocation": "./.yarn/__virtual__/@tailwindcss-aspect-ratio-virtual-ed6d233ccb/5/.yarn/berry/cache/@tailwindcss-aspect-ratio-npm-0.4.2-f690711eea-10c0.zip/node_modules/@tailwindcss/aspect-ratio/",\
+        "packageDependencies": [\
+          ["@tailwindcss/aspect-ratio", "virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:0.4.2"],\
+          ["@types/tailwindcss", null],\
+          ["tailwindcss", "npm:3.4.3"]\
+        ],\
+        "packagePeers": [\
+          "@types/tailwindcss",\
+          "tailwindcss"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/forms", [\
+      ["npm:0.5.7", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@tailwindcss-forms-npm-0.5.7-67f8a9f248-10c0.zip/node_modules/@tailwindcss/forms/",\
+        "packageDependencies": [\
+          ["@tailwindcss/forms", "npm:0.5.7"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:0.5.7", {\
+        "packageLocation": "./.yarn/__virtual__/@tailwindcss-forms-virtual-b2449507b7/5/.yarn/berry/cache/@tailwindcss-forms-npm-0.5.7-67f8a9f248-10c0.zip/node_modules/@tailwindcss/forms/",\
+        "packageDependencies": [\
+          ["@tailwindcss/forms", "virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:0.5.7"],\
+          ["@types/tailwindcss", null],\
+          ["mini-svg-data-uri", "npm:1.4.4"],\
+          ["tailwindcss", "npm:3.4.3"]\
+        ],\
+        "packagePeers": [\
+          "@types/tailwindcss",\
+          "tailwindcss"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@tailwindcss/typography", [\
+      ["npm:0.5.12", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@tailwindcss-typography-npm-0.5.12-e4bde3582e-10c0.zip/node_modules/@tailwindcss/typography/",\
+        "packageDependencies": [\
+          ["@tailwindcss/typography", "npm:0.5.12"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:0.5.12", {\
+        "packageLocation": "./.yarn/__virtual__/@tailwindcss-typography-virtual-26a0e42c84/5/.yarn/berry/cache/@tailwindcss-typography-npm-0.5.12-e4bde3582e-10c0.zip/node_modules/@tailwindcss/typography/",\
+        "packageDependencies": [\
+          ["@tailwindcss/typography", "virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:0.5.12"],\
+          ["@types/tailwindcss", null],\
+          ["lodash.castarray", "npm:4.4.0"],\
+          ["lodash.isplainobject", "npm:4.0.6"],\
+          ["lodash.merge", "npm:4.6.2"],\
+          ["postcss-selector-parser", "npm:6.0.10"],\
+          ["tailwindcss", "npm:3.4.3"]\
+        ],\
+        "packagePeers": [\
+          "@types/tailwindcss",\
+          "tailwindcss"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1080,6 +1154,9 @@ const RAW_RUNTIME_STATE =
           ["hello", "workspace:."],\
           ["@hotwired/stimulus", "npm:3.2.2"],\
           ["@hotwired/turbo-rails", "npm:8.0.4"],\
+          ["@tailwindcss/aspect-ratio", "virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:0.4.2"],\
+          ["@tailwindcss/forms", "virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:0.5.7"],\
+          ["@tailwindcss/typography", "virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:0.5.12"],\
           ["autoprefixer", "virtual:d045d2cbbe0ee6cb975b1c6960b02b9bd0ef6d77253c64378f4ce4ef6998d88e83c170fa908c88413e716d6d8bacbbb1feff6312e79b2c50e25728a24fa679aa#npm:10.4.19"],\
           ["esbuild", "npm:0.20.2"],\
           ["postcss", "npm:8.4.38"],\
@@ -1324,6 +1401,33 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["lodash.castarray", [\
+      ["npm:4.4.0", {\
+        "packageLocation": "../../../../.yarn/berry/cache/lodash.castarray-npm-4.4.0-f3706198e9-10c0.zip/node_modules/lodash.castarray/",\
+        "packageDependencies": [\
+          ["lodash.castarray", "npm:4.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lodash.isplainobject", [\
+      ["npm:4.0.6", {\
+        "packageLocation": "../../../../.yarn/berry/cache/lodash.isplainobject-npm-4.0.6-d73937742f-10c0.zip/node_modules/lodash.isplainobject/",\
+        "packageDependencies": [\
+          ["lodash.isplainobject", "npm:4.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lodash.merge", [\
+      ["npm:4.6.2", {\
+        "packageLocation": "../../../../.yarn/berry/cache/lodash.merge-npm-4.6.2-77cb4416bf-10c0.zip/node_modules/lodash.merge/",\
+        "packageDependencies": [\
+          ["lodash.merge", "npm:4.6.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["lru-cache", [\
       ["npm:10.2.0", {\
         "packageLocation": "../../../../.yarn/berry/cache/lru-cache-npm-10.2.0-b9f6b44740-10c0.zip/node_modules/lru-cache/",\
@@ -1386,6 +1490,15 @@ const RAW_RUNTIME_STATE =
           ["micromatch", "npm:4.0.5"],\
           ["braces", "npm:3.0.2"],\
           ["picomatch", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mini-svg-data-uri", [\
+      ["npm:1.4.4", {\
+        "packageLocation": "../../../../.yarn/berry/cache/mini-svg-data-uri-npm-1.4.4-929f6f1119-10c0.zip/node_modules/mini-svg-data-uri/",\
+        "packageDependencies": [\
+          ["mini-svg-data-uri", "npm:1.4.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1871,6 +1984,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["postcss-selector-parser", [\
+      ["npm:6.0.10", {\
+        "packageLocation": "../../../../.yarn/berry/cache/postcss-selector-parser-npm-6.0.10-a4d7aaa270-10c0.zip/node_modules/postcss-selector-parser/",\
+        "packageDependencies": [\
+          ["postcss-selector-parser", "npm:6.0.10"],\
+          ["cssesc", "npm:3.0.0"],\
+          ["util-deprecate", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:6.0.11", {\
         "packageLocation": "../../../../.yarn/berry/cache/postcss-selector-parser-npm-6.0.11-b2f8bf39d3-10c0.zip/node_modules/postcss-selector-parser/",\
         "packageDependencies": [\
