@@ -3,3 +3,9 @@
 // ./bin/rails generate stimulus controllerName
 
 import { application } from "./application"
+
+import App__DropdownController from "./app/dropdown_controller"
+application.register("app--dropdown", App__DropdownController)
+
+import App__SidebarController from "./app/sidebar_controller"
+application.register("app--sidebar", App__SidebarController)
