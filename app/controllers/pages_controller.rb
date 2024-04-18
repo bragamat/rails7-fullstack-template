@@ -1,4 +1,7 @@
+# frozen_string_literal: true
+
+# PagesController
 class PagesController < ApplicationController
-  def home
-  end
+  before_action :authenticate_user!, unless: :devise_controller?
+  def home; end
 end

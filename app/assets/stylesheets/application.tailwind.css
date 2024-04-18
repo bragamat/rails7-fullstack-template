@@ -5,3 +5,9 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@import "toastify-js/src/toastify";
+
+p, em, textarea {
+  @apply text-gray-300;
+}
