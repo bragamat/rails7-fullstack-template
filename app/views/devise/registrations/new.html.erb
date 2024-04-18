@@ -13,14 +13,14 @@
         <span>Company</span>
       </h1>
       <h2 class="text-sm font-medium text-gray-500 dark:text-gray-400">
-        Welcome, please sign in to your dashboard
+        Welcome, sign up to your dashboard
       </h2>
     </header>
 
       <!-- Sign In Form -->
     <div class="flex flex-col overflow-hidden rounded-lg bg-white shadow-sm dark:bg-gray-800 dark:text-gray-100">
       <div class="grow p-5 md:px-16 md:py-12">
-        <%= form_with model: resource, url: registration_path(resource_name), as: resource_name, class: "space-y-6", data: {turbo: false} do |f| %>
+        <%= form_with model: resource, url: registration_path(resource_name), as: resource_name, class: "space-y-6", data: {turbo: true} do |f| %>
             <%= render "devise/shared/error_messages", resource: resource %>
             <div class="space-y-1">
               <%= render partial: 'components/input_with_label', locals: { type: :text , f: f, field: :email, required: true, placeholder: "Enter your email" }  %>
